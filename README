@@ -1,0 +1,3 @@
+Everything from here except hadware-configuration.nix's is a direct copy from git@github.com:finix-community/examples.git.
+
+It has correct hardware configs for luks instalations :)
