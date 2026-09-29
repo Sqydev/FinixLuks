@@ -22,7 +22,7 @@
 
         modules = [
           { nixpkgs.pkgs = pkgs; }
-          ./configuration.nix
+          ./finix/configuration.nix
         ];
       };
     };
