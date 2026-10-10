@@ -42,14 +42,14 @@
   };
 
   fileSystems."cryptroot" = {
-    device = "/dev/nvme0n1p2";
+    device = <HERE_ROOT_BUT_NOT_MAPPER>;
     fsType = "luks";
     neededForBoot = true;
     options = [ "--allow-discards" ];
   };
 
   fileSystems."/boot" = {
-    device = "/dev/nvme0n1p1";
+    device = <HERE_BOOT>;
     fsType = "vfat";
     options = [
       "fmask=0022"
